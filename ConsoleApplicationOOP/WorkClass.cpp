@@ -2,9 +2,14 @@
 void WorkClass::startWork() {
     std::cout << "Hello Привет World!\n";
 
+<<<<<<< Updated upstream
     GoodBasic* universalPointer01 = new Chipsi;
     static_cast<GoodBasic*>(universalPointer01)->toString();
     static_cast<Chipsi*>(universalPointer01)->toString();
+=======
+    GoodBasic* universalPointer03 = new Software;
+    static_cast<GoodBasic*>(universalPointer03)->toString();
+>>>>>>> Stashed changes
 
    // Chipsi chips01;
     //chips01.toString();
